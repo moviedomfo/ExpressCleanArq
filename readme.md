@@ -1,4 +1,4 @@
-# Express API implementing clean architecture DDD using
+# Express API implementing clean architecture DDD 
 
 ## This api use
 
