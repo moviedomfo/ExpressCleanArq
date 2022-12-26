@@ -14,22 +14,22 @@ DevOp
 - docker-compose
 
 ## Scaffolding / Folder Structure
-  .
-  ├── dist                        # Compiled files (alternatively `dist`)
-  ├── src  
-  ├── app                         # Application bussiness rules(`saervices.ts`)
-  ├── domain
-  ├────── useCases-interfases
-  ├────── repo-interfases
-  ├────── DTOs
-  ├────── Entities
-  ├── infra                              # All implementations of interfases
-  ├──────controllers
-  ├──────routes  
-  ├──────models                          # schemes,sequalize prisma to databases (`mongo`, postgres , sql server etc)
-  ├──────DependenciInjection.ts          # iOC container ( `inversify`, `node-dependency-injection`)
-  ├── README.md
-  └── docs                               # Documentation files (alternatively `doc`)
+    .
+    ├── dist                        # Compiled files (alternatively `dist`)
+    ├── src  
+    ├── app                         # Application bussiness rules(`saervices.ts`)
+    ├── domain
+    ├────── useCases-interfases
+    ├────── repo-interfases
+    ├────── DTOs
+    ├────── Entities
+    ├── infra                              # All implementations of interfases
+    ├──────controllers
+    ├──────routes  
+    ├──────models                          # schemes,sequalize prisma to databases (`mongo`, postgres , sql server etc)
+    ├──────DependenciInjection.ts          # iOC container ( `inversify`, `node-dependency-injection`)
+    ├── README.md
+    └── docs                               # Documentation files (alternatively `doc`)
 
 ## Geting start
 
