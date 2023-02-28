@@ -2,7 +2,7 @@ import { InfoService } from "../application/info.service";
 import { ContainerBuilder } from "node-dependency-injection";
 import MutationRepository from "./repos/Mutation.repo";
 import InfoController from "./controller/info.controller";
-import MurtationController from "./controller/mutation.controller";
+import MutationController from "./controller/mutation.controller";
 import UsersService from "../application/users.service";
 import ItemsController from "./controller/items.controller";
 import ItemsService from "../application/items.service";
@@ -30,7 +30,7 @@ container
 
 container.register("InfoController", InfoController).addArgument(infoService);
 container
-  .register("MurtationController", MurtationController)
+  .register("MutationController", MutationController)
   .addArgument(mutarionVerifier);
 
 container.register("AuthController", AuthController);
